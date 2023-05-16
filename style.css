@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color:#104738;
+    color: white;
+    font-family: 'Cookie', cursive;
+font-family: 'Quicksand', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 1em 5em 2em 1em;
+}
+
+.secao1{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+    align-items: center;
+}
+.tituloqueijos{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    margin: 1em;
+    
+}
+.queijo{
+
+    border-top : 1px #cfad80 solid;
+    border-bottom : 1px #cfad80 solid;
+    padding:2px;
+}
+.secao2{
+    display: grid;
+    grid-template-columns: 15% 50% 20% 15%;
+    align-items: center;
+    font-size: 1.5em;
+   
+}
+.secao3{
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    align-items: top;
+    font-size: 1.5em;
+    margin: 20px 1px 20px 1px;
+    font-size: 16px;
+
+}
+h3{
+    font-family: 'Cookie', cursive;
+    font-size: 18px;
+}
+h2{
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Cookie', cursive;
+}
+
